@@ -47,7 +47,7 @@ class CustomItemsCard extends StatelessWidget {
                   ),
                   child: Text(itemsModel!.statusTitle!,
                   style: TextStyle(
-                    fontSize:16, 
+                    fontSize:14, 
                     fontWeight: FontWeight.w600,
                     color: itemsModel!.statusTitle == "Active" 
                     ? Colors.red 
@@ -59,7 +59,7 @@ class CustomItemsCard extends StatelessWidget {
             ],
           ),
           Padding(
-            padding: EdgeInsets.only(left: 20,right:20,top: 5,bottom: 0),
+            padding: EdgeInsets.only(left: 20,right:20,top: 0,bottom: 0),
             child: Row(
               children: [
                 Text(
